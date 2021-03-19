@@ -14,7 +14,7 @@ export const getSmurfs = () => {
 
     setTimeout(() => {
       dispatch({
-        type: SMURF_GET_SUCCESS,
+        type: SMURF_FETCH_SUCCESS,
       });
     }, 3000);
   };
